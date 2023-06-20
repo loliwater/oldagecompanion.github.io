@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1501504413881-5888acd06076?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=vincent-chin-KRVmB7wraZ4-unsplash.jpg&w=1920');
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.form{
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+    position: absolute;
+    right: 0;
+}
+
+form{
+    margin-right: 50%;
+    position: absolute;
+    top: 25%;
+    /* margin-top: 50%; */
+    position: static;
+}
+
+input{
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    font-size: 25px;
+    color: white;
+    /* position: fixed; */
+    /* position: static; */
+
+}
+
+textarea{
+    height: 100px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: none;
+    font-size: 25px;
+    resize: none;
+}
+
+h4{
+    font-size: 20px;
+}
+a{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+}
+
+.single-item{
+    margin-top: 20px;
+    width: 69%;
+    padding-top: 20px;
+    border: 2px solid white ;
+    border-radius: 25px;
+    /* background-color: #bdc3c7; */
+    /* box-shadow: 10px 10px 5px grey; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: aliceblue; */
+    background: rgba(255, 255, 255, 0.6);
+    color: white;
+    /* opacity: 0.5; */
+    font-family: 'Shippori Mincho', serif;
+    font-size: 10px;
+}
+
+.comment-title{
+    text-align: center;
+    margin-top: 25%;
+    font-size: 40px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn{
+    height: 50px;
+    width: 100px;
+    position: relative;
+    top: 30px;
+    left: 75px;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+#name-cmt{
+    text-transform: capitalize;
+}
+
+.desc{
+    color: white;
+    position: relative;
+    top: 340px;
+    font-family: 'Hind', sans-serif;
+}

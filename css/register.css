@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(232,35,212,1) 100%); */
+
+background-image: url('https://images.unsplash.com/photo-1485288734756-0b31a0a31d95?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+text-transform: capitalize;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.main-content{
+    background-color: #f5f6fa;
+    width: 1100px;
+    height: 680px;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+
+.input-form{
+    height: inherit;
+    width: inherit;
+    /* background-color: aqua; */
+    position: absolute;
+    right: 28%;
+    top: 32%;
+}
+
+
+input{
+    outline: none;
+    border: 1px solid black;
+    border-radius: 25px;
+    height: 35px;
+    width: 250px;
+    padding-left: 25px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input::placeholder{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    font-size: 45px;
+    font-family: 'Baloo 2', cursive;
+}
+
+.btn{
+    position: absolute;
+    width: 270px;
+    height: 40px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 25px;
+    background-color: #2ecc71;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.exists{
+    font-size: 25px;
+    text-transform: capitalize;
+    position: absolute;
+    left: 850px;
+    top: 200px;
+    color: red;
+}
+
+.lgn{
+    position: absolute;
+    /* left: 30%; */
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}

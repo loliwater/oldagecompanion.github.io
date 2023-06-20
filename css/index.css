@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway:wght@100&family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('https://images.unsplash.com/photo-1459267809427-0b40207b2cb5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    position: absolute;
+    top: 15%;
+    left: 42%;
+    font-size: 8vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* p{
+    position: absolute;
+    top: 50%;
+    left: 38%;;
+} */
+
+.para1{
+    position: absolute;
+    top: 40%;
+    left: 27%;
+}
+.para2{
+    position: absolute;
+    top: 45%;
+    left: 27%;
+}
+.para3{
+    position: absolute;
+    top: 50%;
+    left: 27%;
+}
+
+p{
+    font-size: 23px;
+    font-family: 'Raleway', sans-serif;
+}
+button{
+    position: absolute;
+    top: 70%;
+    width: 15vh;
+    height: 7vh;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Rubik', sans-serif;
+}
+#login{
+    position: absolute;
+    left: 35%;
+}
+#register{
+    position: absolute;
+    right: 30%;
+}

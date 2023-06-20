@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=PT+Sans+Caption&family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color: black; */
+    background-image: url('https://images.unsplash.com/photo-1618044619888-009e412ff12a?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=markus-spiske-6pflEeSzGUo-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.login-container{
+    margin-left: 33%;
+    height: 50vh;
+    width: 30%;
+    /* background-color: #1e272e; */
+}
+
+form{
+    margin-top: 50%;
+    margin-left: 25%;
+    color: white;
+}
+
+input{
+    border: none;
+    border-bottom: solid 2px white;
+    background: transparent;
+    padding-top: 25px;
+    font-size: 30px;
+    outline: none;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+input:focus{
+    border-bottom: solid 2px #575fcf;
+}
+
+input::placeholder{
+    text-transform: capitalize;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.form-title{
+    position: relative;
+    top: 55%;
+    left: 20%;
+    color: white;
+    font-size: 50px;
+    font-family: 'Cinzel', serif;
+}
+
+.btn{
+    width: 120px;
+    height: 45px;
+    position: absolute;
+    top: 57%;
+    right: 48%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.create{
+    position: absolute;
+    bottom: 37%;
+    right: 10%;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
